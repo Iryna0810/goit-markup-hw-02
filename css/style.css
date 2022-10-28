@@ -1,0 +1,69 @@
+:root {
+--brand-color:#2196F3;
+--second-brand-color:#000000;
+--nav-color:#212121;
+--contact-color:#757575;
+--title-color:#212121;
+}
+
+/*----------------------Header----------------------------*/
+.header {}
+
+.nav {}
+
+.nav-list {}
+
+.nav-list-item {}
+
+.adress {}
+
+.adress-item {}
+/*-----------------------Hero--------------------------------------*/
+.hero {}
+
+.hero-title {}
+
+.hero-btn {}
+/*-----------------------Properties--------------------------------*/
+.properties {}
+
+.hide {}
+
+.properties-list {}
+
+.propert-list-item {}
+
+.propert-title {}
+
+.propert-text {}
+/*-----------------------Gallery-----------------------------------*/
+.title {}
+
+.gallery-list {
+    background: #F5F5F5;
+}
+
+.gallery-list-item {}
+/*-----------------------Company-----------------------------------*/
+.title {}
+
+.title-name {}
+
+.position {}
+/*-----------------------Footer------------------------------------*/
+.contacts-link {
+    font-style: inherit;
+}
+.footer {}
+
+.footer-link {}
+
+.footer-adress {}
+
+.contacts {}
+
+.contacts-link {
+    font-style: inherit;
+}
+
+.contacts-item {}
