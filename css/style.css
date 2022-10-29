@@ -5,19 +5,57 @@
 --contact-color:#757575;
 --title-color:#212121;
 }
-
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+ul {
+    list-style-type:none
+}
+a {
+    text-decoration:none;
+}
 /*----------------------Header----------------------------*/
-.header {}
-
-.nav {}
-
-.nav-list {}
-
-.nav-list-item {}
-
-.adress {}
-
-.adress-item {}
+.header {
+    background-color: #ffffff;
+}
+.nav-logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.1923;    
+        letter-spacing: 0.03em;    
+        color: #000000;
+}
+.studio {
+    color: var(--brand-color);
+}
+.nav-list a {
+    list-style: none;
+    color: var(--nav-color);
+}
+.nav-list-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3333;
+    letter-spacing: 0.02em;
+    }
+.nav-list-item a:hover,
+.nav-list-item a:focus {
+    color:var(--brand-color)
+}
+.adress a {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: var(--contact-color)
+}
+.adress a:hover,
+.adress a:focus{
+    color: var(--brand-color);
+}
 /*-----------------------Hero--------------------------------------*/
 .hero {}
 
@@ -51,9 +89,6 @@
 
 .position {}
 /*-----------------------Footer------------------------------------*/
-.contacts-link {
-    font-style: inherit;
-}
 .footer {}
 
 .footer-link {}
@@ -67,3 +102,5 @@
 }
 
 .contacts-item {}
+
+/*---------------------------Portfolio------------------------------------*/
