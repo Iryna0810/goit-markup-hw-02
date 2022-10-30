@@ -1,8 +1,8 @@
 :root {
 --brand-color:#2196F3;
---second-brand-color:#000000;
 --nav-color:#212121;
 --contact-color:#757575;
+--position-color:#757575;
 --title-color:#212121;
 }
 body {
@@ -48,7 +48,7 @@ a {
 .adress a {
     font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1428;
         letter-spacing: 0.02em;
         color: var(--contact-color)
 }
@@ -57,50 +57,150 @@ a {
     color: var(--brand-color);
 }
 /*-----------------------Hero--------------------------------------*/
-.hero {}
+.hero {
+    background-color: #2F303A;
+}
 
-.hero-title {}
+.hero-title {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-.hero-btn {}
+.hero-btn {
+    background-color: var(--brand-color);
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.875;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
 /*-----------------------Properties--------------------------------*/
-.properties {}
+.properties {
+    background-color: #F5F5F5;;
+}
 
-.hide {}
+.hide {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal;
+}
 
-.properties-list {}
+.properties-title {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.7142;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--title-color);
+}
 
-.propert-list-item {}
-
-.propert-title {}
-
-.propert-text {}
+.properties-text {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7142;    
+        letter-spacing: 0.03em;
+        color: #757575;
+}
 /*-----------------------Gallery-----------------------------------*/
-.title {}
+.gallery-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
 
 .gallery-list {
-    background: #F5F5F5;
+    background: #F5F4FA ;
+}
+/*-----------------------Company-----------------------------------*/
+.command-title, .command-list {
+background-color: #F5F4FA;
+}
+.command-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1666;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--title-color);
+}
+.title-name {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
 }
 
-.gallery-list-item {}
-/*-----------------------Company-----------------------------------*/
-.title {}
-
-.title-name {}
-
-.position {}
+.position {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color:var(--position-color);
+}
 /*-----------------------Footer------------------------------------*/
-.footer {}
+.footer {
+    background-color: #2F303A;
+}
 
-.footer-link {}
+.footer-logo {
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 
-.footer-adress {}
-
-.contacts {}
+.footer-adress {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7142;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
 
 .contacts-link {
-    font-style: inherit;
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7142;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        font-style: normal;
 }
 
-.contacts-item {}
+.contacts-item {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        font-style: normal;
+}
 
 /*---------------------------Portfolio------------------------------------*/
